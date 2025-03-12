@@ -1,7 +1,12 @@
-// foo.h
+// No foo.h você faz o uso da função
 
-int foo(int b) {
-  if (b > 2)
-    return 0;
-  return 1;
-}
+// #ifndef BAR_H
+// #define BAR_H
+
+#ifndef FOO_H
+#define FOO_H
+
+int foo(int b);
+
+
+#endif
